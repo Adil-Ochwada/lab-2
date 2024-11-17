@@ -49,6 +49,8 @@ if result:
 else:
     print(f'No books found by {author} at price up to 150')
 
+print('\033[34mЗАДАНИЕ 3\033[0m')
+
 import random
 from csv import reader
 
@@ -75,6 +77,8 @@ def refs(file, records=20):
         print(f"An error occurred: {e}")
 
 refs('books-en.csv')
+
+print('\033[34mЗАДАНИЕ 4\033[0m')
 
 import csv
 
@@ -112,6 +116,8 @@ def topbooks(file):
         print(f"An error occurred: {e}")
 
 topbooks('books-en.csv')
+
+print('\033[34mЗАДАНИЕ 5\033[0m')
 
 import xml.etree.ElementTree as ET
 
